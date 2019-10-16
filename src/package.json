@@ -8,7 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "ngx-bootstrap": "^5.1.2"
+  },
   "devDependencies": {
     "rxjs": "^6.0.0"
   }

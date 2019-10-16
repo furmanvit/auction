@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
 import { AppComponent } from './app.component';
 import { TopBarMenuComponent } from './components/top-bar-menu/top-bar-menu.component';
@@ -10,7 +11,7 @@ import { TopBarMenuComponent } from './components/top-bar-menu/top-bar-menu.comp
     TopBarMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, TooltipModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
